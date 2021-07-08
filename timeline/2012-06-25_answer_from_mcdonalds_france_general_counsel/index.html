@@ -58,7 +58,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.ecthrwatch.org/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_2.png">
 
 <meta name="description"
-  content="Written answer through certified mail with proof of receipt requested. McDonald&#39;s France formally answer the whistleblower regarding the accusations of fraud.">
+  content="Written answer sent through certified mail with proof of receipt requested. McDonald&#39;s France formally answer the whistleblower regarding the accusations of fraud.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -96,7 +96,7 @@
             "url": "https://www.ecthrwatch.org/images/icon.png"
         }
         },
-    "description": "Written answer through certified mail with proof of receipt requested. McDonald\u0027s France formally answer the whistleblower regarding the accusations of fraud."
+    "description": "Written answer sent through certified mail with proof of receipt requested. McDonald\u0027s France formally answer the whistleblower regarding the accusations of fraud."
 }
 </script><meta property="og:title" content="Françoise de Borda, former general counsel of McDonald&#39;s France | European Court of Human Rights Watch" />
 <meta property="og:type" content="article" />
@@ -109,11 +109,15 @@
 
 
 
-<meta property="og:description" content="Written answer through certified mail with proof of receipt requested. McDonald&#39;s France formally answer the whistleblower regarding the accusations of fraud." />
+<meta property="og:description" content="Written answer sent through certified mail with proof of receipt requested. McDonald&#39;s France formally answer the whistleblower regarding the accusations of fraud." />
 
 
 
 <meta property="og:locale" content="en" />
+
+
+
+<meta property="og:locale:alternate" content="fr" />
 
 
 
@@ -181,6 +185,19 @@
                     <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
                 </div>
             </div>
+            <div class="relative pt-4 pl-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="languageMode">
+                    <i class="fas fa-globe"></i>
+                    <span class="pl-1">English</span>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open-lang">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='languageOptions'>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://www.ecthrwatch.org/timeline/2012-06-25_answer_from_mcdonalds_france_general_counsel/">English</a>
+                    <a class="px-4 py-1 hover:text-eureka" href="https://fr.ecthrwatch.org/chronologie/2012-06-25_reponse_directrice_juridique_mcdonalds_france/">French - Français</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -208,6 +225,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         getcolorscheme();
         switchBurger();
+        switchLanguage()
     });
 </script>
 </div>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ecthrwatch.org/</loc>
-    <lastmod>2021-06-25T21:02:13+08:00</lastmod>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -13,6 +13,74 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ecthrwatch.org/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/mcdonalds-france/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/mcdonalds-france/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/mcdonalds-france/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/timeline/2021-07-06_my-third-post/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/timeline/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/chronologie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/timeline/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/links/</loc>
@@ -226,19 +294,6 @@
                 href="https://www.ecthrwatch.org/series/"
                 />
   </url><url>
-    <loc>https://www.ecthrwatch.org/tags/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/"
-                />
-  </url><url>
     <loc>https://www.ecthrwatch.org/categories/themes/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -410,47 +465,15 @@
   </url><url>
     <loc>https://www.ecthrwatch.org/timeline/2015-10-27_answer_from_eric_andrieu_pechenard_lawfirm/</loc>
     <lastmod>2015-10-27T15:59:13+08:00</lastmod>
-  </url><url>
-    <loc>https://www.ecthrwatch.org/tags/mcdonalds-france/</loc>
-    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/mcdonalds-france/"
+                href="https://fr.ecthrwatch.org/chronologie/2015-10-27_reponse_d_eric_andrieu_cabinet_pechenard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ecthrwatch.org/tags/mcdonalds-france/"
-                />
-  </url><url>
-    <loc>https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/</loc>
-    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
-                />
-  </url><url>
-    <loc>https://www.ecthrwatch.org/timeline/</loc>
-    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
-  </url><url>
-    <loc>https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/</loc>
-    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
+                href="https://www.ecthrwatch.org/timeline/2015-10-27_answer_from_eric_andrieu_pechenard_lawfirm/"
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/fran%C3%A7oise-de-borda/</loc>
@@ -468,6 +491,16 @@
   </url><url>
     <loc>https://www.ecthrwatch.org/timeline/2012-06-25_answer_from_mcdonalds_france_general_counsel/</loc>
     <lastmod>2012-06-25T13:13:13+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/chronologie/2012-06-25_reponse_directrice_juridique_mcdonalds_france/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/timeline/2012-06-25_answer_from_mcdonalds_france_general_counsel/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/lettre-lrar/</loc>
     <lastmod>2012-06-25T13:13:13+08:00</lastmod>
