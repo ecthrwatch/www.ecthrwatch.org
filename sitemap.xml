@@ -672,16 +672,66 @@
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/frauds/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/fraudes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/frauds/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/judges/</loc>
   </url><url>
     <loc>https://www.ecthrwatch.org/laws/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/lois/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/laws/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/cases/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/affaires/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/cases/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/evidence/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/preuves/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/evidence/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/facts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/faits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/facts/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/questions/</loc>
     <xhtml:link
