@@ -15,19 +15,6 @@
                 href="https://www.ecthrwatch.org/tags/cassation-court/"
                 />
   </url><url>
-    <loc>https://www.ecthrwatch.org/tags/chantal-arens/</loc>
-    <lastmod>2021-07-08T11:32:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/chantal-arens/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/chantal-arens/"
-                />
-  </url><url>
     <loc>https://www.ecthrwatch.org/persons/chantal-arens/</loc>
     <lastmod>2021-07-08T11:32:00+08:00</lastmod>
     <xhtml:link
@@ -41,17 +28,17 @@
                 href="https://www.ecthrwatch.org/persons/chantal-arens/"
                 />
   </url><url>
-    <loc>https://www.ecthrwatch.org/persons/cedric_villani/</loc>
+    <loc>https://www.ecthrwatch.org/tags/chantal-arens/</loc>
     <lastmod>2021-07-08T11:32:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://fr.ecthrwatch.org/personnes/villani_cedric/"
+                href="https://fr.ecthrwatch.org/tags/chantal-arens/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ecthrwatch.org/persons/cedric_villani/"
+                href="https://www.ecthrwatch.org/tags/chantal-arens/"
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/c%C3%A9dric-villani/</loc>
@@ -65,6 +52,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ecthrwatch.org/tags/c%C3%A9dric-villani/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/persons/cedric-villani/</loc>
+    <lastmod>2021-07-08T11:32:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/personnes/villani_cedric/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/persons/cedric-villani/"
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/</loc>
@@ -93,7 +93,7 @@
                 href="https://www.ecthrwatch.org/tags/emmanuel-macron/"
                 />
   </url><url>
-    <loc>https://www.ecthrwatch.org/persons/macron_emmanuel/</loc>
+    <loc>https://www.ecthrwatch.org/persons/emmanuel-macron/</loc>
     <lastmod>2021-07-08T11:32:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -103,7 +103,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ecthrwatch.org/persons/macron_emmanuel/"
+                href="https://www.ecthrwatch.org/persons/emmanuel-macron/"
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/french-judicial-system/</loc>
@@ -145,7 +145,7 @@
                 href="https://www.ecthrwatch.org/tags/philippe-mouricou/"
                 />
   </url><url>
-    <loc>https://www.ecthrwatch.org/persons/mouricou_philippe/</loc>
+    <loc>https://www.ecthrwatch.org/persons/philippe-mouricou/</loc>
     <lastmod>2021-07-08T11:32:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -155,7 +155,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ecthrwatch.org/persons/mouricou_philippe/"
+                href="https://www.ecthrwatch.org/persons/philippe-mouricou/"
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/president-of-france/</loc>
@@ -174,60 +174,11 @@
                 href="https://www.ecthrwatch.org/tags/"
                 />
   </url><url>
-    <loc>https://www.ecthrwatch.org/tags/mcdonalds-france/</loc>
-    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/mcdonalds-france/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/mcdonalds-france/"
-                />
+    <loc>https://www.ecthrwatch.org/tags/valentine-roux/</loc>
+    <lastmod>2021-07-08T11:32:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.ecthrwatch.org/timeline/2021-07-06_my-third-post/</loc>
-    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
-  </url><url>
-    <loc>https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/</loc>
-    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
-                />
-  </url><url>
-    <loc>https://www.ecthrwatch.org/timeline/</loc>
-    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/chronologie/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/timeline/"
-                />
-  </url><url>
-    <loc>https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/</loc>
-    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://fr.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
-                />
+    <loc>https://www.ecthrwatch.org/tags/witness-tampering/</loc>
+    <lastmod>2021-07-08T11:32:00+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/links/</loc>
     <lastmod>2021-06-25T21:02:13+08:00</lastmod>
@@ -631,6 +582,85 @@
                 hreflang="en"
                 href="https://www.ecthrwatch.org/timeline/2015-10-27_answer_from_eric_andrieu_pechenard_lawfirm/"
                 />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/mcdonalds-france/</loc>
+    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/mcdonalds-france/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/mcdonalds-france/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/</loc>
+    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/p%C3%A9chenard-associe%CC%81s/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/timeline/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/chronologie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/timeline/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/todo/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/totranslate/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/</loc>
+    <lastmod>2015-10-27T15:59:13+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/%C3%A9ric-andrieu/"
+                />
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/corporate-vice-president/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/gloria-santona/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/malcolm-hicks/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/timeline/2015-10-23_email_received_from_malcolm_hicks_mcdonalds_corporate_vice_president/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/mcdonalds-corporation/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/mcdonalds-europe/</loc>
+    <lastmod>2021-07-06T18:01:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/tags/certified-mail/</loc>
+    <lastmod>2012-06-25T13:13:13+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/fran%C3%A7oise-de-borda/</loc>
     <lastmod>2012-06-25T13:13:13+08:00</lastmod>
