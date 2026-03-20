@@ -1,0 +1,263 @@
+% Custom LaTeX template for crime report PDF generation
+% Features:
+% - Page numbers (X of Y)
+% - Footer with version, date, time, timezone
+% - Adjustable line spacing and paragraph spacing
+% - Better URL handling (no line break issues, especially in footnotes)
+% - Better table formatting
+% - Color and underline support
+
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+% Basic packages
+\usepackage{amsmath,amssymb}
+\usepackage{calc}
+\usepackage[normalem]{ulem}  % For underline and strikethrough
+
+% Font setup - Times New Roman style (like academic theses)
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp}
+  \usepackage{newtxtext}  % Times-like text font
+  \usepackage{newtxmath}  % Times-like math font
+\else
+  % XeLaTeX/LuaLaTeX - use system Times New Roman
+  \usepackage{fontspec}
+  \setmainfont{Times New Roman}
+\fi
+
+% Geometry - A4 page with academic thesis-style margins
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$else$
+\usepackage[
+  a4paper,
+  top=2.5cm,
+  bottom=2.5cm,
+  left=2.5cm,
+  right=2.5cm,
+  headheight=14pt,
+  footskip=1.5cm
+]{geometry}
+$endif$
+
+% Line spacing (configurable)
+\usepackage{setspace}
+$if(linestretch)$
+\setstretch{$linestretch$}
+$else$
+\setstretch{1.15}
+$endif$
+
+% Paragraph spacing and indentation (French thesis style)
+$if(paraspacing)$
+\setlength{\parskip}{$paraspacing$}
+$else$
+\setlength{\parskip}{0.8em}  % Moderate space between paragraphs
+$endif$
+$if(parindent)$
+\setlength{\parindent}{$parindent$}
+$else$
+\setlength{\parindent}{1.5em}  % Standard French thesis indentation
+$endif$
+
+% Colors
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+
+% ulem configuration - normalem preserves \emph as italic, not underline
+% Define \st as alias for \sout (strikethrough) - Pandoc uses \st for ~~text~~
+\let\st\sout
+
+% Better URL handling - CRITICAL for preventing line break issues
+\usepackage{url}
+\usepackage[hyphens,spaces,obeyspaces]{xurl}
+
+% Configure hyperref with better URL breaking
+\usepackage{hyperref}
+\hypersetup{
+  breaklinks=true,
+  colorlinks=true,
+  linkcolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
+  urlcolor=$if(urlcolor)$$urlcolor$$else$blue$endif$,
+  citecolor=$if(citecolor)$$citecolor$$else$blue$endif$,
+  pdfcreator={LaTeX via pandoc}
+}
+\urlstyle{same}
+
+% Allow URLs to break at ANY character - this fixes the footnote URL problem
+\makeatletter
+% Allow breaks after these characters
+\def\UrlBreaks{\do\/\do-\do.\do_\do~\do:\do?\do=\do\&\do\#\do\%}
+% Also allow breaks before these characters (for really long URLs)
+\def\UrlBigBreaks{\do\/\do-\do.\do:\do\%}
+% Allow break at any alphanumeric character as last resort
+\def\UrlOrds{\do\*\do\-\do\~\do\'\do\"\do\-}
+\g@addto@macro{\UrlBreaks}{\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z\do\0\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9}
+\makeatother
+
+% Ensure footnote URLs can break properly
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+
+% Additional setting to help with URL line breaking in hyperref
+\Urlmuskip=0mu plus 3mu
+
+% Graphics
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+% Pandoc 3.x compatibility - define \pandocbounded for image sizing
+\newcommand{\pandocbounded}[2]{#2}
+
+% Better tables
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+% Table column width adjustments
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+% Footnotes at bottom of page with better URL handling
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{1em}
+
+% Page numbers and footer
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+% Build metadata
+$if(version)$
+\newcommand{\docversion}{$version$}
+$else$
+\newcommand{\docversion}{version\#initial}
+$endif$
+
+$if(builddate)$
+\newcommand{\builddate}{$builddate$}
+$else$
+\newcommand{\builddate}{\today}
+$endif$
+
+$if(buildtime)$
+\newcommand{\buildtime}{$buildtime$}
+$else$
+\newcommand{\buildtime}{}
+$endif$
+
+$if(timezone)$
+\newcommand{\timezone}{$timezone$}
+$else$
+\newcommand{\timezone}{}
+$endif$
+
+% Configure headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+
+% Footer: left side has version and build info
+\fancyfoot[L]{\small \docversion\ifx\buildtime\empty\else\ -- Built: \builddate\ \buildtime\ \timezone\fi}
+
+% Footer: center is empty
+\fancyfoot[C]{}
+
+% Footer: right side has page numbers (no hyperlink on LastPage)
+\fancyfoot[R]{\small Page \thepage\ of \pageref*{LastPage}}
+
+% Header: empty for cleaner look
+\fancyhead[L]{}
+\fancyhead[C]{}
+\fancyhead[R]{}
+
+% Remove header rule
+\renewcommand{\headrulewidth}{0pt}
+
+% Apply fancy style to plain pages (like first page of chapters)
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[L]{\small \docversion\ifx\buildtime\empty\else\ -- Built: \builddate\ \buildtime\ \timezone\fi}
+  \fancyfoot[R]{\small Page \thepage\ of \pageref*{LastPage}}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% Lists
+\usepackage{enumitem}
+\setlist[itemize]{topsep=0pt,partopsep=0pt}
+\setlist[enumerate]{topsep=0pt,partopsep=0pt}
+
+% Code highlighting
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% Block quotes
+\usepackage{csquotes}
+
+% Tight lists
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Images in subfolder
+\graphicspath{{./}{./images/}}
+
+% Typography settings - Knuth-Plass line-breaking algorithm optimization
+% These settings reduce excessive hyphenation while maintaining good justification
+\tolerance=200                    % Lower = stricter line breaking (default 200)
+\pretolerance=100                 % Try without hyphenation first
+\hyphenpenalty=300                % Penalty for hyphenating (higher = less hyphenation)
+\exhyphenpenalty=300              % Penalty for breaking at explicit hyphens
+\doublehyphendemerits=10000       % Strong penalty for consecutive hyphenated lines
+\finalhyphendemerits=5000         % Penalty for hyphenating second-to-last line
+\adjdemerits=10000                % Penalty for adjacent incompatible lines
+\brokenpenalty=100                % Penalty for breaking after hyphenated line
+\setlength{\emergencystretch}{2em} % Allow some stretch in emergencies
+\hbadness=1000                    % Threshold for "underfull hbox" warnings
+\hfuzz=0.5pt                      % Ignore tiny overfull boxes
+
+% Prevent widows and orphans
+\widowpenalty=10000
+\clubpenalty=10000
+
+% Section numbering
+$if(numbersections)$
+\setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
+$else$
+\setcounter{secnumdepth}{-\maxdimen}
+$endif$
+
+% Title, author, date
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$else$
+\date{}
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}

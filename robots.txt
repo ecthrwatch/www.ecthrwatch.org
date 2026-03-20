@@ -1,1 +1,11 @@
 User-agent: *
+Allow: /
+
+# Block archive versions from indexing
+Disallow: /archive/
+Disallow: /en/archive/
+Disallow: /fr/archive/
+Disallow: /zh/archive/
+
+# Sitemap
+Sitemap: https://www.ecthrwatch.orgsitemap.xml

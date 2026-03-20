@@ -39,7 +39,7 @@
     <lastmod>2021-07-12T11:23:12+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/authors/</loc>
-    <lastmod>2025-07-27T16:30:41+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -156,7 +156,7 @@
     <lastmod>2025-07-27T16:30:41+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/</loc>
-    <lastmod>2025-07-27T16:30:41+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -225,7 +225,7 @@
     <lastmod>2025-07-27T16:30:41+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/</loc>
-    <lastmod>2025-07-27T16:30:41+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -249,7 +249,7 @@
     <lastmod>2025-07-27T16:30:41+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/authors/vincent-b-le-corre/</loc>
-    <lastmod>2025-07-27T16:30:41+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1015,7 +1015,7 @@
     <lastmod>2024-07-18T19:45:12+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/fbi/</loc>
-    <lastmod>2024-07-18T19:45:12+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1079,13 +1079,23 @@
     <lastmod>2024-05-21T19:45:12+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/timeline-of-events-and-open-letters/latest-crime-report-criminal-rico-case-targeting-mcdonalds/</loc>
-    <lastmod>2024-05-09T08:32:00+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/chronologie-des-faits-et-lettres-ouvertes/dernier-rapport-sur-les-delits-et-crimes-dossier-penal-visant-mcdonalds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/timeline-of-events-and-open-letters/latest-crime-report-criminal-rico-case-targeting-mcdonalds/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/crime-report/</loc>
-    <lastmod>2024-05-10T13:01:00+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/mcdonalds-corporation/</loc>
-    <lastmod>2025-05-10T12:32:46+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -1103,10 +1113,30 @@
                 />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/rico/</loc>
-    <lastmod>2024-05-09T08:32:00+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/rico/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/rico/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/sec/</loc>
-    <lastmod>2024-05-10T13:01:00+08:00</lastmod>
+    <lastmod>2026-02-18T21:34:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://fr.ecthrwatch.org/tags/sec/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ecthrwatch.org/tags/sec/"
+                />
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/fraud/</loc>
     <lastmod>2024-05-06T17:24:00+08:00</lastmod>
@@ -4660,6 +4690,8 @@
                 href="https://www.ecthrwatch.org/analyses-by-artificial-intelligence-confirming-mcdonalds-crimes/"
                 />
   </url><url>
+    <loc>https://www.ecthrwatch.org/archive/</loc>
+  </url><url>
     <loc>https://www.ecthrwatch.org/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -4680,6 +4712,8 @@
     <loc>https://www.ecthrwatch.org/contact/</loc>
   </url><url>
     <loc>https://www.ecthrwatch.org/copyright-and-disclaimer/</loc>
+  </url><url>
+    <loc>https://www.ecthrwatch.org/archive/crime-report/</loc>
   </url><url>
     <loc>https://www.ecthrwatch.org/tags/directive-2005/29/ec/</loc>
   </url><url>

@@ -1,0 +1,72 @@
+id: IV-FF
+level: 3
+title: '(IV)(FF) 8th Example of Fraud: the 2017 Fraud by McDonald''s France and their Accomplices, and Condoned, Again, by McDonald''s Corporation'
+anchor_id: 8th-example-fraud-2017-mcdonalds-france
+raw_header: '### (IV)(FF) 8th Example of Fraud: the 2017 Fraud by McDonald''s France and their Accomplices, and Condoned, Again, by McDonald''s Corporation {id="8th-example-fraud-2017-mcdonalds-france"}'
+content: |-
+  (version#initial)(740)&emsp;NOTE FOR EDWARD LEHMAN: I haven't finished yet to list all aggravating circumstances for the year 2016 but I am going to explain very quickly what happened in 2017:
+
+  (version#initial)(741)&emsp;Note for Mr. Lehman: so, for 2017, they kept a similar concept as in 2016 but instead of setting a fixed amount of 'M' for prizes, they would let people do an online bidding.
+
+  (version#initial)(742)&emsp;Note for Mr. Lehman: However, to prevent what happened the year before, they would only allow people to input a maximum amount of 5 game stamps into their system every day.
+
+  (version#initial)(743)&emsp;Note for Mr. Lehman: For example, one of the prize was a television. The highest game stamp value was 500 'M'. The first day, someone bid 2500 'M' which means that person was exceptionally lucky enough to get 5 game stamps of 500 'M' each. The second day, the bid reached 5000 'M', the third day 7500 'M', the fourth day 10,000 'M', the fifth day 12,500 'M'.
+
+  (version#initial)(744)&emsp;Note for Mr. Lehman: It means one or more people were lucky enough to get 25 game stamps of 500 'M' within 5 days. It also means they ate 5 Best Of meals per day 5 days in a row.
+
+  (version#initial)(745)&emsp;If I am not mistaken, I will triple check before I write my report but the probability of getting a 500 'M' game stamp was about 0.02563 (or in percentage, 2.563% of chance per attempt to get a 500 'M'). Therefore, the probability to get 25 x 500 'M' game stamps in a row is 0.02563 x 0.02563 x 0.02563 x … and you multiply 25 times totally. Or written another way 0.02563^25 = 1.6546843318724983 10^-40 or in decimal form:
+
+  (version#initial)(746)&emsp;0.00000000000000000000000000000000000000016546843318724983
+
+  (version#initial)(747)&emsp;Or put another way: 1 chance out of 6043448775926736700000000000000000000000 (calculation: 1/0.00000000000000000000000000000000000000016546843318724983)
+
+  (version#initial)(748)&emsp;The odds of winning the Powerball jackpot is
+
+  (version#initial)(749)&emsp;1 in 292.2 million (source: https://apnews.com/article/powerball-mega-millions-winning-odds-numbers-a3e5a8e8e7ed15d7500c1d6acdab6785#)
+
+  (version#initial)(750)&emsp;Or
+
+  (version#initial)(751)&emsp;1 in 292200000
+
+  (version#initial)(752)&emsp;1 in 6043448775926736700000000000000000000000 are the odds of getting 25 x 500 'M' game stamps in a row. You see the difference? 🤔 ^∞
+
+  (version#initial)(753)&emsp;Now, McDonald's stated that consumers could input their top 5 game stamps. So let's redo the calculation taking this into account. Let's assume a consumer would eat 10 Best Of menus per day: 5 for lunch and 5 for dinner every day 5 days in a row!
+
+  (version#initial)(754)&emsp;I use a special software for mathematics to get the right number, it's called Wolfram Alpha. I use this input:
+
+  (version#initial)(755)&emsp;Probability[x>=25, x\[Distributed]BinomialDistribution[50,0.02563]]
+
+  (version#initial)(756)&emsp;It's related to Binomial Distribution (https://en.wikipedia.org/wiki/Binomial_distribution)
+
+  (version#initial)(757)&emsp;The output is then 1.12124*10^-26
+
+  (version#initial)(758)&emsp;Or in decimal form a probability of 0.000000000000000000000000011212436112931688
+
+  (version#initial)(759)&emsp;Or put in another way, 1 chance out of 89186684314452024000000000
+
+  (version#initial)(760)&emsp;Now, McDonald's could argue that there were more than 1 participant. Okay, let's calculate what the outcome would be if in 2017, all of the people on planet Earth had traveled to France AND ate 10 meals per day, including babies!
+
+  (version#initial)(761)&emsp;The population in 2017 was about 7.55 billion people.
+
+  (version#initial)(762)&emsp;I use this formula in the software:
+
+  (version#initial)(763)&emsp;Expectation[x, x\[Distributed]BinomialDistribution[7550000000,1.12124*10^-26]]
+
+  (version#initial)(764)&emsp;I put a screenshot to show you how it looks like:
+
+  <!-- Original filename: Screenshot 2023-10-24 at 18.17.24.png -->
+  ![Wolfram Alpha calculation showing binomial distribution expectation](images/Screenshot_2023-10-24_at_18.17.24.png)
+
+  (version#initial)(765)&emsp;[Image above]
+
+  (version#initial)(766)&emsp;So a probability of 8.465362 10^-17
+
+  (version#initial)(767)&emsp;Or in decimal form: 0.00000000000000008465362
+
+  (version#initial)(768)&emsp;Or put in another way: 1 chance out of 11812844000000000 (This is the probability that if 7.55 billion people participated in the 2017 edition in France ate every day 10 meals per day for 5 days in a row, the probability that only 1 human being out of 7.55 billion would get 25 x 500 'M' game stamps out of the 50 games stamps he would have collected within a 5 days period. I-M-P-O-S-S-I-B-L-E ! ! !)
+
+  (version#initial)(769)&emsp;CONCLUSION: IT WAS IMPOSSIBLE. Ms Orane El'Khass was right. McDonald's France own employees were stealing the game stamps as she explained.
+
+  (version#initial)(770)&emsp;Note: email sent October 31, 2017 at 18:12
+
+  [Return to the Table of Contents ↩︎](#table-of-contents)

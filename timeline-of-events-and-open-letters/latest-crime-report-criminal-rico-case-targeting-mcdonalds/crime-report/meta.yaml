@@ -1,0 +1,574 @@
+# Crime Report YAML Configuration
+# This file controls the structure, order, and publication status of all sections
+
+draft_number: 33
+language: en
+output_file: ../index.en.md
+
+# Valid statuses:
+#   - published: Appears in final output
+#   - draft: Hidden from output (work in progress)
+#   - review: Hidden from output (under review)
+
+structure:
+  # === FRONTMATTER & SETUP ===
+  - id: frontmatter
+    type: frontmatter
+    status: published
+
+  - id: intro-text
+    type: content
+    status: published
+
+  - id: styles
+    type: styles
+    status: published
+
+  - id: toc
+    type: toc
+    status: published
+
+  # === MAIN CONTENT SECTIONS ===
+  - id: executive-summary
+    title: "TLDR; EXECUTIVE SUMMARY"
+    status: published
+
+  - id: preamble
+    title: "Preamble"
+    status: published
+
+  # === SECTION I: INTRODUCTION ===
+  - id: I-intro
+    title: "(I) Introduction: This Crime Report is Written Under Duress"
+    status: published
+
+  - id: I-A
+    title: "(I)(A) Witness Tampering and the (Death?) Threats I Have Received"
+    status: published
+
+  - id: I-B
+    title: "(I)(B) The Christian Duty to Report Wrongdoing"
+    status: published
+
+  - id: I-C
+    title: "(I)(C) Key Witness, Analyst, Whistleblower, and Now Whistleblower x 2"
+    status: published
+
+  - id: I-D
+    title: "(I)(D) A Brief and Non-Exhaustive Explanation to Understand the Money Laundering Aspect"
+    status: published
+
+  - id: I-E
+    title: "(I)(E) A Brief and Non-Exhaustive Timeline of Some of the Key Events"
+    status: published
+
+  - id: I-F
+    title: "(I)(F) The 2023 Informal Gag Order"
+    status: published
+
+  - id: I-G
+    title: "(I)(G) Important Notes in the Interest of Transparency"
+    status: published
+
+  - id: I-H
+    title: "(I)(H) Should We Show Mercy Towards some of the Criminals?"
+    status: published
+
+  - id: I-I
+    title: "(I)(I) Message To Local Law Enforcement Officials"
+    status: published
+
+  - id: I-J
+    title: "(I)(J) Non-exhaustive List of the Suspects"
+    status: published
+
+  - id: I-K
+    title: "(I)(K) OPTIONAL"
+    status: published
+
+  # === SECTION II: VOLKSWAGEN COMPARISON ===
+  - id: II-intro
+    title: "(II) How Does the McDonald's Frauds Scandal Compare to the Volkswagen Emissions Scandal"
+    status: published
+
+  - id: II-A
+    title: "(II)(A) A Reminder of the Volkswagen Emissions Scandal"
+    status: published
+
+  - id: II-B
+    title: "(II)(B) Drawing Parallels, McDonald's Corporation and its Accomplices are Architects of Mortality"
+    status: published
+
+  - id: II-C
+    title: "(II)(C) Will German Automobile Manufacturer Volkswagen and American Fast Food Chain McDonald's Corporation Be Held Accountable"
+    status: published
+
+  # === SECTION III: MCDONALD'S INFLUENCE ===
+  - id: III-intro
+    title: "(III) Understanding McDonald's Influence and Its Power to Corrupt"
+    status: published
+
+  - id: III-A
+    title: "(III)(A) Beware of False Appearances!"
+    status: published
+
+  - id: III-B
+    title: "(III)(B) McDonald's Corporation and its Accomplices are Major Donors to Politicians"
+    status: published
+
+  - id: III-C
+    title: "(III)(C) Has McDonald's Corporation Corrupted Washington D.C.?"
+    status: published
+
+  - id: III-D
+    title: "(III)(D) Have the Accomplices of McDonald's Corporation Corrupted U.S. States and Local Officials?"
+    status: published
+
+  - id: III-E
+    title: "(III)(E) Has the Miami-Dade Police Force Been Corrupted Already?"
+    status: published
+
+  - id: III-F
+    title: "(III)(F) Will All of the U.S. Officials Agree to Return Donations"
+    status: published
+
+  - id: III-G
+    title: "(III)(G) Can U.S. and State Officials Still Be Impartial?"
+    status: published
+
+  - id: III-H
+    title: "(III)(H) McDonald's Power to Corrupt in France"
+    status: published
+
+  - id: III-I
+    title: "(III)(I) Simply Look at the Threats from High Level French Officials"
+    status: published
+
+  - id: III-J
+    title: "(III)(J) McDonald's Corporation and/or Their Accomplices Seem to Have Already Corrupted Some Law Enforcement Officials"
+    status: published
+
+  - id: III-K
+    title: "(III)(K) Individual Owner-Operators Also Have the Power to Corrupt"
+    status: published
+
+  - id: III-L
+    title: "(III)(L) Corruption Might Also Happen Through the Suppliers"
+    status: published
+
+  # === SECTION IV: LIST OF CRIMES ===
+  - id: IV-intro
+    title: "(IV) Non-exhaustive List of the Crimes"
+    status: published
+
+  - id: IV-A
+    title: "(IV)(A) Quick Introduction about this non-exhaustive list"
+    status: published
+
+  - id: IV-B
+    title: "(IV)(B) Ongoing Crime of Witness Tampering by Officials and Elected Officials"
+    status: published
+
+  - id: IV-C
+    title: "(IV)(C) Ongoing Crime of Witness Tampering by McDonald's Corporation"
+    status: published
+
+  - id: IV-D
+    title: "(IV)(D) Money Laundering of Worldwide Criminal Proceeds"
+    status: published
+
+  - id: IV-E
+    title: "(IV)(E) The First 1 in 4 McDonald's Monopoly Mass-Marketing Fraud in France for the Year 2011"
+    status: published
+
+  - id: IV-F
+    title: "(IV)(F) The First 1 in 4 McDonald's Monopoly Mass-Marketing Fraud in the United States for the Year 2011"
+    status: published
+
+  - id: IV-G
+    title: "(IV)(G) The First 1 in 4 McDonald's Monopoly Mass-Marketing Fraud in the United States for the Year 2012"
+    status: published
+
+  - id: IV-H
+    title: "(IV)(H) The 1 in 4 McDonald's Monopoly Mass-Marketing Fraud in Australia for the Year 2022"
+    status: published
+
+  - id: IV-I
+    title: "(IV)(I) You Can Now Understand the Second Fraud"
+    status: published
+
+  - id: IV-J
+    title: "(IV)(J) Bis Repetita: Same for France"
+    status: published
+
+  - id: IV-K
+    title: "(IV)(K) There are At Least 50 to 100 Mass-Marketing Frauds Worldwide"
+    status: published
+
+  - id: IV-L
+    title: "(IV)(L) Obstruction of Justice: Witness Tampering, by Philippe Mouricou"
+    status: published
+
+  - id: IV-M
+    title: "(IV)(M) Obstruction of Justice: Witness Tampering, by French Elected Official Cédric Villani"
+    status: published
+
+  - id: IV-N
+    title: "(IV)(N) The Collect-to-Win McDonald's Monopoly Mass-Marketing Fraud in France for the Year 2011"
+    status: published
+
+  - id: IV-O
+    title: "(IV)(O) The Collect-to-Win McDonald's Monopoly Mass-Marketing Fraud in France for the Year 2012"
+    status: published
+
+  - id: IV-P
+    title: "(IV)(P) The Collect-to-Win McDonald's Monopoly Mass-Marketing Fraud in France for the Year 2015"
+    status: published
+
+  - id: IV-Q
+    title: "(IV)(Q) Aiding and Abetting a Criminal RICO Enterprise by the Law Firm Péchenard & Associés"
+    status: published
+
+  - id: IV-R
+    title: "(IV)(R) The McDonald's Monopoly Mass-Marketing Fraud in France in 2016"
+    status: published
+
+  - id: IV-S
+    title: "(IV)(S) High Likelihood of Witness Tampering by Allen & Overy"
+    status: published
+
+  - id: IV-T
+    title: "(IV)(T) Obstruction of Justice and Conspiracy to Commit Obstruction of Justice"
+    status: published
+
+  - id: IV-U
+    title: "(IV)(U) McDonald's Monopoly Mass-Marketing Fraud in France in 2017"
+    status: published
+
+  - id: IV-V
+    title: "(IV)(V) Extremely High Likelihood of Corruption of Foreign Officials"
+    status: published
+
+  - id: IV-W
+    title: "(IV)(W) Witness Tampering by Nicole Belloubet"
+    status: published
+
+  - id: IV-X
+    title: "(IV)(X) Mini-Cultural Genocide"
+    status: published
+
+  - id: IV-Y
+    title: "(IV)(Y) Collect-to-Win Mass-Marketing Fraud in the United States in the Year 1987"
+    status: published
+
+  - id: IV-Z
+    title: "(IV)(Z) Possible Crimes Committed by a Specific Franchisee"
+    status: published
+
+  - id: IV-AA
+    title: "(IV)(AA) 3rd Example of Fraud: the Collect-to-Win Fraud by McDonald's Corporation"
+    status: published
+
+  - id: IV-BB
+    title: "(IV)(BB) 4th Example of Fraud: the 2011 Collect-to-Win Fraud by McDonald's France"
+    status: published
+
+  - id: IV-CC
+    title: "(IV)(CC) 5th Example of Fraud: the 2012 Collect-to-Win Fraud by McDonald's France"
+    status: published
+
+  - id: IV-DD
+    title: "(IV)(DD) 6th Example of Fraud: the 2015 Collect-to-Win Fraud by McDonald's France"
+    status: published
+
+  - id: IV-EE
+    title: "(IV)(EE) 7th Example of Fraud: the 2016 Fraud by McDonald's France"
+    status: published
+
+  - id: IV-FF
+    title: "(IV)(FF) 8th Example of Fraud: the 2017 Fraud by McDonald's France"
+    status: published
+
+  - id: IV-GG
+    title: "(IV)(GG) 9th Example of Fraud: China 2019"
+    status: draft  # Placeholder content
+
+  - id: IV-HH
+    title: "(IV)(HH) 11th Example of Fraud: Ireland XXXX"
+    status: draft  # Placeholder content
+
+  - id: IV-II
+    title: "(IV)(II) 12th Example: Illegal Lottery in the United States in 2016"
+    status: draft  # Placeholder content
+
+  - id: IV-JJ
+    title: "(IV)(JJ) Misprision of Felony: 18 U.S. Code Section 4"
+    status: draft  # Placeholder content
+
+  # === SECTION V: URGENT RECOMMENDATIONS ===
+  - id: V-intro
+    title: "(V) Urgent Recommendations for Addressing the Crimes"
+    status: published
+
+  - id: V-A
+    title: "(V)(A) With the Utmost Respect: Wake Up!"
+    status: published
+
+  - id: V-B
+    title: "(V)(B) Understand the Long-Term Consequences of Organized Crime"
+    status: published
+
+  - id: V-C
+    title: "(V)(C) Be Ready! It's One of the Biggest Frauds in History"
+    status: published
+
+  - id: V-D
+    title: "(V)(D) Hold Press Conferences"
+    status: published
+
+  - id: V-E
+    title: "(V)(E) Victim Information Website"
+    status: published
+
+  - id: V-F
+    title: "(V)(F) Make Sure Investigators Don't Have a Financial Stake"
+    status: published
+
+  - id: V-G
+    title: "(V)(G) Try to Determine Which Officials Might be Corrupted"
+    status: published
+
+  - id: V-H
+    title: "(V)(H) Estimate the Loss for the Victims"
+    status: published
+
+  - id: V-I
+    title: "(V)(I) Estimate the Book Value of McDonald's Corporation"
+    status: published
+
+  - id: V-J
+    title: "(V)(J) Immediately Initiate Asset Forfeiture Measures Against the Attorneys"
+    status: published
+
+  - id: V-K
+    title: "(V)(K) Immediately Initiate Asset Forfeiture Measures Against McDonald's Corporation"
+    status: published
+
+  - id: V-L
+    title: "(V)(L) Asset Forfeiture of McDonald's Corporation and their Subsidiary Companies"
+    status: published
+
+  - id: V-M
+    title: "(V)(M) Then Start Issuing Arrest Warrants"
+    status: published
+
+  - id: V-N
+    title: "(V)(N) Interrogate Restaurant Managers and Owner-Operators"
+    status: published
+
+  - id: V-O
+    title: "(V)(O) Asset Forfeiture of McDonald's Suppliers"
+    status: published
+
+  - id: V-P
+    title: "(V)(P) Monitor the Top 100 Institutional Investors"
+    status: published
+
+  - id: V-Q
+    title: "(V)(Q) Asset Forfeiture of Investment Companies"
+    status: published
+
+  - id: V-R
+    title: "(V)(R) Urgent Call to American Politicians"
+    status: published
+
+  - id: V-S
+    title: "(V)(S) Safeguard/Preserve the Evidence"
+    status: published
+
+  - id: V-T
+    title: "(V)(T) International Coordination with INTERPOL and Eurojust"
+    status: published
+
+  - id: V-U
+    title: "(V)(U) Coordinate With the European Court of Human Rights"
+    status: published
+
+  - id: V-V
+    title: "(V)(V) For U.S. Senate: Start Senatorial Inquiry"
+    status: published
+
+  - id: V-W
+    title: "(V)(W) Investigate and Try to Find Out Who Alerted Someone"
+    status: published
+
+  - id: V-X
+    title: "(V)(X) A Chain is Only as Strong as Its Weakest Link"
+    status: published
+
+  - id: V-Y
+    title: "(V)(Y) Launch a Criminal Investigation Against UFC-Que Choisir"
+    status: published
+
+  - id: V-Z
+    title: "(V)(Z) Investigate the French President"
+    status: published
+
+  - id: V-AA
+    title: "(V)(AA) Start Monitoring Institutional Investors"
+    status: published
+
+  - id: V-BB
+    title: "(V)(BB) Start Issuing Extradition Requests"
+    status: published
+
+  - id: V-CC
+    title: "(V)(CC) Withhold Passports"
+    status: published
+
+  # === SECTION VI: TRUTH IS POWER ===
+  - id: VI-intro
+    title: "(VI) Truth is Power: Mathematics is Power"
+    status: published
+
+  # === SECTION VII: RELEVANT LAWS ===
+  - id: VII-intro
+    title: "(VII) Relevant Laws and Regulations"
+    status: published
+
+  - id: VII-A
+    title: "(VII)(A) Understanding Some Key Legal Concepts in France and Europe"
+    status: published
+
+  - id: VII-B
+    title: "(VII)(B) Justice Manual"
+    status: published
+
+  # === SECTION VIII: KEY CONSIDERATIONS ===
+  - id: VIII-intro
+    title: "(VIII) Key Considerations: Helpful Pointers to Keep in Mind"
+    status: published
+
+  - id: VIII-A
+    title: "(VIII)(A) Strategy: Force the Franchisees to Choose a Side"
+    status: published
+
+  - id: VIII-B
+    title: "(VIII)(B) How the Con Artists McDonald's Corporation Exploited Kahneman's Behavioral Economics"
+    status: published
+
+  - id: VIII-C
+    title: "(VIII)(C) Consumer Psychology and the Problem of Fine Print Fraud"
+    status: published
+
+  - id: VIII-D
+    title: "(VIII)(D) McDonald's Corporation, Their Subsidiary Companies, Their Respective Executives... All Knew"
+    status: published
+
+  - id: VIII-E
+    title: "(VIII)(E) McDonald's Corporation Is Currently Virtually Bankrupt"
+    status: published
+
+  - id: VIII-F
+    title: "(VIII)(F) Understanding the Financial Core: Market Capitalization vs. Book Value"
+    status: published
+
+  - id: VIII-G
+    title: "(VIII)(G) Does McDonald's Corporation Have the Traits of a Ponzi Scheme?"
+    status: published
+
+  - id: VIII-H
+    title: "(VIII)(H) Money Laundering by McDonald's Corporation"
+    status: published
+
+  - id: VIII-I
+    title: "(VIII)(I) The Foreign Corrupt Practices Act (FCPA)"
+    status: published
+
+  - id: VIII-J
+    title: "(VIII)(J) The Racketeer Influenced and Corrupt Organizations (RICO) Act"
+    status: published
+
+  - id: VIII-K
+    title: "(VIII)(K) The FBI and Federal Crime Victims' Rights"
+    status: published
+
+  - id: VIII-L
+    title: "(VIII)(L) Concerns for the U.S. Securities and Exchange Commission"
+    status: published
+
+  - id: VIII-M
+    title: "(VIII)(M) Concerns for the Internal Revenue Service (IRS)"
+    status: published
+
+  - id: VIII-N
+    title: "(VIII)(N) Concerns for State Revenue Authorities"
+    status: published
+
+  - id: VIII-O
+    title: "(VIII)(O) 18 U.S.C. § 371—CONSPIRACY TO DEFRAUD THE UNITED STATES"
+    status: published
+
+  - id: VIII-P
+    title: "(VIII)(P) Concerns for European Countries Revenue Authorities"
+    status: published
+
+  - id: VIII-Q
+    title: "(VIII)(Q) CONSPIRACY TO DEFRAUD THE EUROPEAN UNION"
+    status: published
+
+  - id: VIII-R
+    title: "(VIII)(R) Concerns for Third Countries Revenue Authorities"
+    status: published
+
+  - id: VIII-S
+    title: "(VIII)(S) CONSPIRACY TO DEFRAUD THIRD COUNTRIES"
+    status: published
+
+  - id: VIII-T
+    title: "(VIII)(T) Headline Table of Contents"
+    status: published
+
+  - id: VIII-U
+    title: "(VIII)(U) About This Crime Report"
+    status: published
+
+  # === SECTION IX: BRIEF TIMELINE ===
+  - id: IX-intro
+    title: "(IX) Brief Timeline"
+    status: published
+
+  # === SECTION X: UNCATEGORIZED ===
+  - id: X-intro
+    title: "(X) Uncategorized Yet"
+    status: published
+
+  - id: X-A
+    title: "(X)(A) Criminal"
+    status: published
+
+  # === SECTION XI: OTHER ===
+  - id: XI-intro
+    title: "(XI) Other"
+    status: published
+
+  - id: XI-A
+    title: "(XI)(A) Criminal Activity Is Continuous and Has Not Concluded"
+    status: published
+
+  - id: XI-B
+    title: "(XI)(B) Witness Tampering"
+    status: published
+
+  - id: XI-C
+    title: "(XI)(C) McDonald's Corporation, an Anti-American Company"
+    status: published
+
+  - id: XI-D
+    title: "(XI)(D) The Christian Duty to Report Wrongdoing"
+    status: published
+
+  # === FOOTNOTES ===
+  - id: footnotes
+    type: footnotes
+    status: published
