@@ -1,11 +1,6 @@
 User-agent: *
 Allow: /
 
-# Block archive versions from indexing
-Disallow: /archive/
-Disallow: /en/archive/
-Disallow: /fr/archive/
-Disallow: /zh/archive/
-
-# Sitemap
-Sitemap: https://www.ecthrwatch.orgsitemap.xml
+# The sitemap URL is locale-specific; each Amplify app emits its own
+# sitemap-index.xml at the site root via @astrojs/sitemap.
+Sitemap: /sitemap-index.xml
