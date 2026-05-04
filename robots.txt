@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-# The sitemap URL is locale-specific; each Amplify app emits its own
-# sitemap-index.xml at the site root via @astrojs/sitemap.
-Sitemap: /sitemap-index.xml
+Sitemap: https://www.ecthrwatch.org/sitemap-index.xml
