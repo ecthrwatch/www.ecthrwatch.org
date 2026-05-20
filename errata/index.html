@@ -89,33 +89,32 @@ URL), that fact is documented here as well — so the omission itself
 remains transparent.</p>
 <hr>
 <h3>2026-05-18 — Removal of a private email address from URL history</h3>
-<p><strong>What happened.</strong> Between 2026-05-09 and 2026-05-17, a backend-data
-migration introduced URL slugs on the <code>/people/</code> and <code>/parties/</code> index
-pages that embedded the username portion of one of the website
-operator&#39;s personal email addresses (the username <code>REDACTED</code> of an
-<code>@gmail.com</code> address). The slugs were live for approximately eight
-days. As soon as the issue was noticed, the slugs were renamed to
-remove the username (and replaced with <code>[REDACTED]</code> in display), and
-the underlying party data was consolidated so the email-derived slug
-form was no longer used at all.</p>
-<p><strong>What was changed in the public record.</strong> On 2026-05-18, the git
-history of the English and French public deploy repositories
+<p><strong>What happened.</strong> A backend-data migration introduced URL slugs on the
+<code>/people/</code> and <code>/parties/</code> index pages that embedded the local-part
+(i.e., the part before the <code>@</code>) of one of the website operator&#39;s
+personal email addresses. The affected slugs were live on the website
+for a short period. As soon as the issue was noticed, those slugs were
+renamed so the local-part no longer appeared in any URL, and the
+underlying party data was consolidated so the email-derived slug form
+was no longer used at all.</p>
+<p><strong>What was changed in the public record.</strong> The git history of the
+English and French public deploy repositories
 (<code>ecthrwatch/www.ecthrwatch.org</code> and <code>ecthrwatch/fr.ecthrwatch.org</code>)
-was rewritten with <code>git filter-repo</code> to remove every occurrence of
-the username string from every commit&#39;s file paths, file contents,
-and commit messages. The rewritten history was then force-pushed to
-GitHub. The website itself was unaffected — only the historical record
-in the deploy repositories was scrubbed of the leaked username.</p>
-<p><strong>Why.</strong> A private email username does not belong in the public record
-of a website that the operator did not knowingly publish that
-information on. The redaction is narrow: only the local-part (username)
-of one address was removed; no other content, attribution, or factual
+was rewritten to remove every occurrence of the affected string from
+every commit&#39;s file paths, file contents, and commit messages. The
+rewritten history was then force-pushed to GitHub. The website itself
+was unaffected — only the historical record in the deploy repositories
+was scrubbed.</p>
+<p><strong>Why.</strong> A private email&#39;s local-part does not belong in the public
+record of a website that the operator did not knowingly publish that
+information on. The redaction is narrow: only the local-part of one
+address was removed; no other content, attribution, or factual
 material was modified.</p>
 <p><strong>Caveat.</strong> Old commit SHAs of the pre-scrub history may remain
 reachable via direct-SHA URLs on GitHub for up to 90 days after the
 force-push, until GitHub&#39;s internal garbage collection removes them.
-The Internet Archive (archive.org) may also have captured the affected
-URLs during the eight-day window; separate takedown procedures apply
+The Internet Archive (archive.org) may also have captured affected
+URLs during the affected window; separate takedown procedures apply
 there.</p>
 <hr>
 <h3>Notes</h3>
