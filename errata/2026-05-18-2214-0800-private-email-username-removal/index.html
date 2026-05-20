@@ -6,8 +6,8 @@
           : pref;
         document.documentElement.setAttribute("data-theme", resolved);
       })();
-    </script><link rel="stylesheet" href="/_astro/Base.xzASL3pJ.css">
-<link rel="stylesheet" href="/_astro/_..Dnl-h3XT.css"></head> <body> <nav class="nav"> <div class="nav-inner">  <div class="nav-row-1"> <a href="/" class="nav-brand">ECTHRwatch.org</a> <button class="nav-hamburger" type="button" aria-expanded="false" aria-label="Menu"> <span class="hamburger-label">Menu &rarr;</span> <span class="hamburger-icon"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button> <div class="nav-controls"> <div class="theme-toggle" role="group" aria-label="Theme"> <button type="button" data-theme-set="light">Light</button> <button type="button" data-theme-set="dark">Dark</button> <button type="button" data-theme-set="auto">Auto</button> </div> <script>
+    </script><link rel="stylesheet" href="/_astro/Base.CVT5zEBl.css">
+<link rel="stylesheet" href="/_astro/_..BpX3dpRa.css"></head> <body> <nav class="nav"> <div class="nav-inner">  <div class="nav-row-1"> <a href="/" class="nav-brand">ECTHRwatch.org</a> <button class="nav-hamburger" type="button" aria-expanded="false" aria-label="Menu"> <span class="hamburger-label">Menu &rarr;</span> <span class="hamburger-icon"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button> <div class="nav-controls"> <div class="theme-toggle" role="group" aria-label="Theme"> <button type="button" data-theme-set="light">Light</button> <button type="button" data-theme-set="dark">Dark</button> <button type="button" data-theme-set="auto">Auto</button> </div> <script>
 (function () {
   function getSystemTheme() {
     return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
@@ -69,4 +69,37 @@
     });
   }
 })();
-</script> <main> <article class="page-container" data-astro-cid-iwstzw75> <p class="errata-detail-back" data-astro-cid-iwstzw75><a href="/errata/" data-astro-cid-iwstzw75>← Errata — Major Public-Record Changes</a></p> <p class="errata-detail-date" data-astro-cid-iwstzw75>2026-05-18</p> <h1 data-astro-cid-iwstzw75>Private email username removed from URL history</h1> <div class="prose" data-astro-cid-iwstzw75> <errataContent data-astro-cid-iwstzw75></errataContent> </div> </article> </main> <footer class="footer"> <div class="footer-links">  <a href="/">Home</a> <span class="footer-sep"> | </span> <a href="/about/">About</a> <span class="footer-sep"> | </span> <a href="/cases/">Cases</a> <span class="footer-sep"> | </span> <a href="/contact/">Contact</a> <span class="footer-sep"> | </span> <a href="/copyright-and-disclaimer/">Copyright and disclaimer</a> <span class="footer-sep"> | </span> <a href="/privacy/">Privacy</a> <span class="footer-sep"> | </span> <a href="/other-websites/">Other websites</a> <span class="footer-sep"> | </span> <a href="/relevant-laws-and-regulations/">Laws</a> <span class="footer-sep"> | </span> <a href="/timeline-of-events-and-open-letters/latest-crime-report-criminal-rico-case-targeting-mcdonalds/">Crime Report Draft</a> <span class="footer-sep"> | </span> <a href="/list-of-evidence/">Evidence</a> <span class="footer-sep"> | </span> <a href="/detailed-timeline-of-events-and-open-letters/">Detailed Timeline</a> <span class="footer-sep"> | </span> <a href="/errata/">Errata</a>  </div> <div class="footer-org">European Court of Human Rights Watch</div> <div>&copy; 2021-2026 <a href="https://www.linkedin.com/in/x-v-france/">Vincent Le Corre</a></div> </footer> </body></html>
+</script> <main> <article class="page-container errata-detail" data-astro-cid-iwstzw75> <p class="errata-detail-back" data-astro-cid-iwstzw75><a href="/errata/" data-astro-cid-iwstzw75>← Errata — Major Public-Record Changes</a></p> <p class="errata-detail-date" data-astro-cid-iwstzw75>2026-05-18</p> <h1 data-astro-cid-iwstzw75>Private email username removed from URL history</h1> <div class="prose" data-astro-cid-iwstzw75> <p><strong>What happened.</strong> A backend-data migration introduced URL slugs on the
+<code>/people/</code> and <code>/parties/</code> index pages that embedded the local-part
+(i.e., the part before the <code>@</code>) of one of the website operator’s
+personal email addresses. The affected slugs were live on the website
+for a short period. As soon as the issue was noticed, those slugs were
+renamed so the local-part no longer appeared in any URL, and the
+underlying party data was consolidated so the email-derived slug form
+was no longer used at all.</p>
+<p><strong>What was changed in the public record.</strong> The git history of the
+English and French public deploy repositories
+(<code>ecthrwatch/www.ecthrwatch.org</code> and <code>ecthrwatch/fr.ecthrwatch.org</code>)
+was rewritten to remove every occurrence of the affected string from
+every commit’s file paths, file contents, and commit messages. The
+rewritten history was then force-pushed to GitHub. The website itself
+was unaffected — only the historical record in the deploy repositories
+was scrubbed.</p>
+<p><strong>Why.</strong> A private email’s local-part does not belong in the public
+record of a website that the operator did not knowingly publish that
+information on. The redaction is narrow: only the local-part of one
+address was removed; no other content, attribution, or factual
+material was modified.</p>
+<p><strong>Caveat.</strong> Old commit SHAs of the pre-scrub history may remain
+reachable via direct-SHA URLs on GitHub for up to 90 days after the
+force-push, until GitHub’s internal garbage collection removes them.
+The Internet Archive (archive.org) may also have captured affected
+URLs during the affected window; separate takedown procedures apply
+there.</p>
+<p><strong>A subsequent secondary slip.</strong> While building the public errata page
+itself (this very page’s predecessor), the local-part of the affected
+address was inadvertently typed back into the page content during
+drafting. The mistake was caught and fixed within minutes: the page
+content was edited, redeployed, and the deploy repositories’ git
+history was scrubbed a second time. This entry, in its current form,
+reflects the corrected state.</p> </div> </article> </main> <footer class="footer"> <div class="footer-links">  <a href="/">Home</a> <span class="footer-sep"> | </span> <a href="/about/">About</a> <span class="footer-sep"> | </span> <a href="/cases/">Cases</a> <span class="footer-sep"> | </span> <a href="/contact/">Contact</a> <span class="footer-sep"> | </span> <a href="/copyright-and-disclaimer/">Copyright and disclaimer</a> <span class="footer-sep"> | </span> <a href="/privacy/">Privacy</a> <span class="footer-sep"> | </span> <a href="/other-websites/">Other websites</a> <span class="footer-sep"> | </span> <a href="/relevant-laws-and-regulations/">Laws</a> <span class="footer-sep"> | </span> <a href="/timeline-of-events-and-open-letters/latest-crime-report-criminal-rico-case-targeting-mcdonalds/">Crime Report Draft</a> <span class="footer-sep"> | </span> <a href="/list-of-evidence/">Evidence</a> <span class="footer-sep"> | </span> <a href="/detailed-timeline-of-events-and-open-letters/">Detailed Timeline</a> <span class="footer-sep"> | </span> <a href="/errata/">Errata</a>  </div> <div class="footer-org">European Court of Human Rights Watch</div> <div>&copy; 2021-2026 <a href="https://www.linkedin.com/in/x-v-france/">Vincent Le Corre</a></div> </footer> </body></html>
