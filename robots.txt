@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ecthrwatch.org/sitemap-index.xml
+Sitemap: https://www.cedricvillani.com/sitemap-index.xml
